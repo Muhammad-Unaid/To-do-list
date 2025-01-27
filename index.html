@@ -1,22 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Persistent Task Manager</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <h1>Task Manager</h1>
-  <div style="text-align: center;">
-    <input type="text" id="taskInput" placeholder="Enter your text">
-    <button onclick="addTask()">Submit</button>
-  </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="https://icons.iconarchive.com/icons/gartoon-team/gartoon-apps/256/gtodo-todo-list-icon.png"
+      type="image/x-icon"
+    />
+    <title>To-Do list</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="first">
+      <h1>To-Do list of JavaScript</h1>
+      <img
+        src="https://icons.iconarchive.com/icons/gartoon-team/gartoon-apps/256/gtodo-todo-list-icon.png"
+        alt="error"
+        id="new"
+      />
+    </div>
+    <div style="text-align: center">
+      <input type="text" id="taskInput" placeholder="Enter your text" />
+      <button onclick="addTask()">Submit</button>
+    </div>
 
-  <div id="taskList"></div>
+    <div id="taskList"></div>
 
- 
-
-<script src="app.js"></script>
-</body>
+    <script src="app.js"></script>
+    <footer
+      style="
+        color: aliceblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        bottom: 0; 
+      ">
+      <h2 id="footerh1">
+        Developed © 2025<a
+          href="https://wa.me/923202059130"
+          target="_blank"
+          style="text-decoration: none">
+          Muhammad Unaid.</a>
+        All rights reserved.
+      </h2>
+    </footer>
+  </body>
 </html>

@@ -48,7 +48,7 @@ margin: 5px;
 }
 
 button:hover {
-background: linear-gradient(to right, #ff9671, #ff6f91);
+background: linear-gradient(to right, #71deff, #0d7c73);
 transform: scale(1.05);
 }
 
@@ -96,7 +96,24 @@ outline: none;
 }
 
 .task input[type="text"]:focus {
-border-color: #ff6f91;
+border-color: #17a1e0;
 box-shadow: 0 0 8px rgba(255, 111, 145, 0.5);
 }
+
+#new{
+  width: 100px;
+}
+h1{
+  margin-bottom: 50px;
+  padding-right: 8px;
+}
+#first{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+
+
 
